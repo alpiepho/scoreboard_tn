@@ -4,8 +4,8 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "0e52bc565b67155181175dbb8ef82f25",
-"index.html": "01422966273997652dc09ba393a498e5",
-"/": "01422966273997652dc09ba393a498e5",
+"index.html": "d6b25f557268d63a2ad22093252d3dad",
+"/": "d6b25f557268d63a2ad22093252d3dad",
 "main.dart.js": "d7f00be9676061f1c9d7616e0ef6797d",
 "favicon.png": "e77f5d3b4801779bc0e4be1f4c06c63a",
 "icons/1024.png": "3ef656fa20bdf832f9812e5ea97f8b77",
@@ -25,7 +25,7 @@ const RESOURCES = {
 "icons/80.png": "a768ccd228b8e3de84ebcad6544bde76",
 "icons/40.png": "17c1ba582d03370950a7003ba8ae33d9",
 "icons/87.png": "555c2137a8fb3097cb37de55b4d86569",
-"manifest.json": "4196a674f526db78bc1b5cada12efaf0",
+"manifest.json": "de8b76da3da70faa2fa9ec4cc99e3e7e",
 "assets/AssetManifest.json": "e26ab0f0a9ebee8025260de29a88a4ca",
 "assets/NOTICES": "64ecbe19d1f9f608c9653b77dfffc40b",
 "assets/FontManifest.json": "3ddd9b2ab1c2ae162d46e3cc7b78ba88",
@@ -38,12 +38,12 @@ const RESOURCES = {
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "https://alpiepho.github.io/scoreboard_tn/",
-"https://alpiepho.github.io/scoreboard_tn/main.dart.js",
-"https://alpiepho.github.io/scoreboard_tn/index.html",
-"https://alpiepho.github.io/scoreboard_tn/assets/NOTICES",
-"https://alpiepho.github.io/scoreboard_tn/assets/AssetManifest.json",
-"https://alpiepho.github.io/scoreboard_tn/assets/FontManifest.json"];
+  "/",
+"main.dart.js",
+"index.html",
+"assets/NOTICES",
+"assets/AssetManifest.json",
+"assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
