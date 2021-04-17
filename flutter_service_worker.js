@@ -4,13 +4,28 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "0e52bc565b67155181175dbb8ef82f25",
-"index.html": "16972642a6f98a123f93efb3fc1a5986",
-"/": "16972642a6f98a123f93efb3fc1a5986",
-"main.dart.js": "73fd7542cc46cb847f588e3694375fe9",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "04e9b20f9c56f57e23b6d7a948f8d611",
+"index.html": "01422966273997652dc09ba393a498e5",
+"/": "01422966273997652dc09ba393a498e5",
+"main.dart.js": "d7f00be9676061f1c9d7616e0ef6797d",
+"favicon.png": "e77f5d3b4801779bc0e4be1f4c06c63a",
+"icons/1024.png": "3ef656fa20bdf832f9812e5ea97f8b77",
+"icons/60.png": "8ab38bb8d41c73cef9cbbf99862a3f06",
+"icons/64.png": "dce1c0afde9d144b4416c81fe10afb02",
+"icons/58.png": "53d2b6678898bc5104d358a1cab9b855",
+"icons/29.png": "66221cc3f87a86157c3ab98606fe4c6b",
+"icons/114.png": "aa924ae267cc88ec580ac921fed7a0b6",
+"icons/128.png": "c13a93816afc75f6f36e959bf9c1b548",
+"icons/512.png": "92f074ce35b0b3e69d597b88ceae34f3",
+"icons/16.png": "e77f5d3b4801779bc0e4be1f4c06c63a",
+"icons/120.png": "6fe66141894881a8a6a9b706b670d74a",
+"icons/256.png": "6edec514b269eaf4e4d4ab1f567b18b4",
+"icons/32.png": "58fb917573b001f13c07c58ff9ba3b4c",
+"icons/180.png": "51201c39488abfadef2cd509ea70c2af",
+"icons/57.png": "154ebb3b9cb3612722937397430a2754",
+"icons/80.png": "a768ccd228b8e3de84ebcad6544bde76",
+"icons/40.png": "17c1ba582d03370950a7003ba8ae33d9",
+"icons/87.png": "555c2137a8fb3097cb37de55b4d86569",
+"manifest.json": "4196a674f526db78bc1b5cada12efaf0",
 "assets/AssetManifest.json": "e26ab0f0a9ebee8025260de29a88a4ca",
 "assets/NOTICES": "64ecbe19d1f9f608c9653b77dfffc40b",
 "assets/FontManifest.json": "3ddd9b2ab1c2ae162d46e3cc7b78ba88",
@@ -23,12 +38,12 @@ const RESOURCES = {
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "https://alpiepho.github.io/scoreboard_tn/",
-"https://alpiepho.github.io/scoreboard_tn/main.dart.js",
-"https://alpiepho.github.io/scoreboard_tn/index.html",
-"https://alpiepho.github.io/scoreboard_tn/assets/NOTICES",
-"https://alpiepho.github.io/scoreboard_tn/assets/AssetManifest.json",
-"https://alpiepho.github.io/scoreboard_tn/assets/FontManifest.json"];
+  "/",
+"main.dart.js",
+"index.html",
+"assets/NOTICES",
+"assets/AssetManifest.json",
+"assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
