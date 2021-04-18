@@ -58406,54 +58406,73 @@ k=j.d
 if(h===C.lb)return M.a7h(i,C.fF,T.mv(M.bR(i,T.f9(H.a([T.kG(T.f9(H.a([T.kG(new D.lI(n,new V.aw(0,0,0,2),T.f9(H.a([L.bg(m,i,i,i,l.cT(k),i,i),L.bg(C.f.i(j.z),i,i,i,j.cy.cT(j.d),i,i)],q),C.a8,C.cg,C.a2),s,r,i)),T.kG(new D.lI(j.r,new V.aw(0,2,0,0),T.f9(H.a([L.bg(j.y,i,i,i,j.cx.cT(j.f),i,i),L.bg(C.f.i(j.Q),i,i,i,j.cy.cT(j.f),i,i)],q),C.a8,C.cg,C.a2),p,o,i))],q),C.a8,C.aT,C.a2))],q),C.d0,C.aT,C.a2),i,i,i,i,i,i,600),i,i),new U.uB(new S.a31(j,b),i),C.jD)
 else return M.a7h(i,C.fF,T.mv(M.bR(i,T.lq(H.a([T.kG(T.lq(H.a([T.kG(new D.lI(n,new V.aw(0,0,2,0),T.f9(H.a([L.bg(m,i,i,i,l.cT(k),i,i),L.bg(C.f.i(j.z),i,i,i,j.cy.cT(j.d),i,i)],q),C.a8,C.cg,C.a2),s,r,i)),T.kG(new D.lI(j.r,new V.aw(2,0,0,0),T.f9(H.a([L.bg(j.y,i,i,i,j.cx.cT(j.f),i,i),L.bg(C.f.i(j.Q),i,i,i,j.cy.cT(j.f),i,i)],q),C.a8,C.cg,C.a2),p,o,i))],q),C.a8,C.aT,C.a2))],q),C.d0,C.aT,C.a2),i,i,i,i,i,i,1000),i,i),new U.uB(new S.a32(j,b),i),C.jD)}}
 S.a2W.prototype={
-$0:function(){var s,r,q=4278190080,p=this.a,o=this.b.a,n=J.av(o),m=H.dQ(n.h(o,"labelLeft"))
-p.x=m==null?"Away":m
-m=H.dQ(n.h(o,"labelRight"))
-p.y=m==null?"Home":m
-m=H.b3(n.h(o,"valueLeft"))
-p.z=m==null?0:m
-m=H.b3(n.h(o,"valueRight"))
-p.Q=m==null?0:m
-m=H.b3(n.h(o,"colorTextLeft"))
-p.d=new P.x((m==null?q:m)>>>0)
-m=H.b3(n.h(o,"colorBackgroundLeft"))
-p.e=new P.x((m==null?4294198070:m)>>>0)
-m=H.b3(n.h(o,"colorTextRight"))
-p.f=new P.x((m==null?q:m)>>>0)
-m=H.b3(n.h(o,"colorBackgroundRight"))
-m=new P.x((m==null?4282682111:m)>>>0)
-p.r=m
-s=p.dy
-s.e=p.x
-s.f=p.y
-s.r=p.z
-s.x=p.Q
-s.a=p.d
-s.b=p.e
-s.c=p.f
-s.d=m
-r=H.b3(n.h(o,"fontType"))
-o=C.zr[r==null?0:r]
-p.ch=o
-switch(o){case C.n6:p.cx=$.a6a()
-p.cy=$.a8U()
+$0:function(){var s,r,q,p=4278190080,o=this.a,n=this.b.a,m=J.av(n),l=H.dQ(m.h(n,"labelLeft"))
+o.x=l==null?"Away":l
+l=H.dQ(m.h(n,"labelRight"))
+o.y=l==null?"Home":l
+l=H.b3(m.h(n,"valueLeft"))
+o.z=l==null?0:l
+l=H.b3(m.h(n,"valueRight"))
+o.Q=l==null?0:l
+l=H.b3(m.h(n,"colorTextLeft"))
+o.d=new P.x((l==null?p:l)>>>0)
+l=H.b3(m.h(n,"colorBackgroundLeft"))
+o.e=new P.x((l==null?4294198070:l)>>>0)
+l=H.b3(m.h(n,"colorTextRight"))
+o.f=new P.x((l==null?p:l)>>>0)
+l=H.b3(m.h(n,"colorBackgroundRight"))
+l=new P.x((l==null?4282682111:l)>>>0)
+o.r=l
+s=o.dy
+s.e=o.x
+s.f=o.y
+s.r=o.z
+s.x=o.Q
+s.a=o.d
+s.b=o.e
+s.c=o.f
+s.d=l
+r=H.b3(m.h(n,"fontType"))
+n=C.zr[r==null?0:r]
+o.ch=n
+switch(n){case C.n6:n=o.cx=$.a6a()
+o=o.cy=$.a8U()
+q=n
+n=o
+o=q
 break
-case C.n7:p.cx=$.a6b()
-p.cy=$.a8V()
+case C.n7:n=o.cx=$.a6b()
+o=o.cy=$.a8V()
+q=n
+n=o
+o=q
 break
-case C.n8:p.cx=$.a6c()
-p.cy=$.a8W()
+case C.n8:n=o.cx=$.a6c()
+o=o.cy=$.a8W()
+q=n
+n=o
+o=q
 break
-case C.n9:p.cx=$.a6d()
-p.cy=$.a8X()
+case C.n9:n=o.cx=$.a6d()
+o=o.cy=$.a8X()
+q=n
+n=o
+o=q
 break
-case C.na:p.cx=$.a6e()
-p.cy=$.a8Y()
+case C.na:n=o.cx=$.a6e()
+o=o.cy=$.a8Y()
+q=n
+n=o
+o=q
 break
-default:p.ch=C.ig
-p.cx=C.jl
-p.cy=C.m_
-break}},
+default:o.ch=C.ig
+n=o.cx=C.jl
+o=o.cy=C.m_
+q=n
+n=o
+o=q
+break}s.fr=o
+s.fx=n},
 $S:0}
 S.a2V.prototype={
 $0:function(){var s=this.a,r=s.dy
