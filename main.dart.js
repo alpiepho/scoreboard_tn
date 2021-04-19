@@ -17959,7 +17959,7 @@ IX:function IX(a,b,c){this.b=a
 this.c=b
 this.a=c},
 Kt:function Kt(){},
-a7h:function(a,b,c,d,e,f){return new M.um(a,c,d,e,b,f,null)},
+a7h:function(a,b,c,d,e){return new M.um(a,c,d,e,b,null)},
 ajE:function(a){var s=a.or(t.B6)
 if(s!=null)return s
 throw H.b(U.P6(H.a([U.r4("Scaffold.of() called with a context that does not contain a Scaffold."),U.by("No Scaffold ancestor could be found starting from the context that was passed to Scaffold.of(). This usually happens when the context provided is from the same StatefulWidget as that whose build function actually creates the Scaffold widget being sought."),U.OL('There are several ways to avoid this problem. The simplest is to use a Builder to get a context that is "under" the Scaffold. For an example of this, please see the documentation for Scaffold.of():\n  https://api.flutter.dev/flutter/material/Scaffold/of.html'),U.OL("A more efficient solution is to split your build function into several widgets. This introduces a new context from which you can obtain the Scaffold. In this solution, you would have an outer widget that creates the Scaffold populated by instances of your new inner widgets, and then in these inner widgets you would use Scaffold.of().\nA less elegant but more expedient solution is assign a GlobalKey to the Scaffold, then use the key.currentState property to obtain the ScaffoldState rather than using the Scaffold.of() function."),a.ZQ("The context used was")],t.qz)))},
@@ -18044,14 +18044,13 @@ _.b=b
 _.c=null},
 a0k:function a0k(a,b){this.a=a
 this.b=b},
-um:function um(a,b,c,d,e,f,g){var _=this
+um:function um(a,b,c,d,e,f){var _=this
 _.e=a
 _.f=b
 _.r=c
 _.x=d
 _.dx=e
-_.fx=f
-_.a=g},
+_.a=f},
 o_:function o_(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o){var _=this
 _.d=a
 _.e=b
@@ -38287,8 +38286,8 @@ s=E.ir(r)
 if(s!=null&&s.d.length!==0)s.h6(0,C.a7,C.ct)},
 gqd:function(){var s=this.k1
 return s==null?H.f(H.r("_geometryNotifier")):s},
-glf:function(){var s=this.a.fx
-return s!==!1},
+glf:function(){this.a.toString
+return!0},
 aW:function(){var s,r=this,q=null
 r.bu()
 s=r.c
@@ -58217,7 +58216,7 @@ h=Z.dU()
 g=L.aU("Reset All",c,c,c,C.bv,c,c)
 f=L.i4(C.yP,c)
 e=d.f
-return M.a7h(new E.qc(a2,p,C.AL,C.j,20,new P.H(1/0,50),50,c),C.fG,M.bR(c,B.aaG(H.a([a3,r,q,n,m,l,k,j,i,h,Q.cF(c,s.a(e==null?H.f(H.r("onReset")):e),g,f),Z.dU(),Z.dU(),Z.dU(),Z.dU(),Q.cF(c,c,L.aU("Optional Fonts:",c,c,c,C.bv,c,c),c),Q.cF(c,new Y.a3k(d),L.aU("Default: ex. 0123456789",c,c,c,C.uo.lB(20),c,c),c),Q.cF(c,new Y.a3l(d),L.aU("Lato: ex. 0123456789",c,c,c,$.a8U().lB(20),c,c),c),Q.cF(c,new Y.a3m(d),L.aU("Merriweather: ex. 0123456789",c,c,c,$.a8V().lB(20),c,c),c),Q.cF(c,new Y.a3n(d),L.aU("Montserrat: ex. 0123456789",c,c,c,$.a8W().lB(20),c,c),c),Q.cF(c,new Y.a3o(d),L.aU("RobotoMono: ex. 0123456789",c,c,c,$.a8X().lB(20),c,c),c),Q.cF(c,new Y.a3p(d),L.aU("RockSalt: ex. 0123456789",c,c,c,$.a8Y().lB(20),c,c),c),Z.dU(),Z.dU(),Z.dU(),Z.dU(),Q.cF(c,c,L.aU("Timestamps:",c,c,c,C.bv,c,c),c),Q.cF(c,d.ga1N(),L.aU("Recording Start",c,c,c,C.bv,c,c),L.i4(C.yU,c)),Q.cF(c,d.ga1O(),L.aU("Recording Stop",c,c,c,C.bv,c,c),L.i4(C.yX,c)),Q.cF(c,d.ga1M(),L.aU("Copy to Clipboard",c,c,c,C.bv,c,c),L.i4(C.yS,c)),Z.dU(),Z.dU(),Z.dU(),Z.dU(),Q.cF(c,d.ga1s(),L.aU("Help",c,c,c,C.bv,c,c),L.i4(C.yR,c)),Z.dU()],o),c,!1),c,c,c,c,c,c,c),c,c,!0)},
+return M.a7h(new E.qc(a2,p,C.AL,C.j,20,new P.H(1/0,50),50,c),C.fG,M.bR(c,B.aaG(H.a([a3,r,q,n,m,l,k,j,i,h,Q.cF(c,s.a(e==null?H.f(H.r("onReset")):e),g,f),Z.dU(),Z.dU(),Z.dU(),Z.dU(),Q.cF(c,c,L.aU("Optional Fonts:",c,c,c,C.bv,c,c),c),Q.cF(c,new Y.a3k(d),L.aU("Default: ex. 0123456789",c,c,c,C.uo.lB(20),c,c),c),Q.cF(c,new Y.a3l(d),L.aU("Lato: ex. 0123456789",c,c,c,$.a8U().lB(20),c,c),c),Q.cF(c,new Y.a3m(d),L.aU("Merriweather: ex. 0123456789",c,c,c,$.a8V().lB(20),c,c),c),Q.cF(c,new Y.a3n(d),L.aU("Montserrat: ex. 0123456789",c,c,c,$.a8W().lB(20),c,c),c),Q.cF(c,new Y.a3o(d),L.aU("RobotoMono: ex. 0123456789",c,c,c,$.a8X().lB(20),c,c),c),Q.cF(c,new Y.a3p(d),L.aU("RockSalt: ex. 0123456789",c,c,c,$.a8Y().lB(20),c,c),c),Z.dU(),Z.dU(),Z.dU(),Z.dU(),Q.cF(c,c,L.aU("Timestamps:",c,c,c,C.bv,c,c),c),Q.cF(c,d.ga1N(),L.aU("Recording Start",c,c,c,C.bv,c,c),L.i4(C.yU,c)),Q.cF(c,d.ga1O(),L.aU("Recording Stop",c,c,c,C.bv,c,c),L.i4(C.yX,c)),Q.cF(c,d.ga1M(),L.aU("Copy to Clipboard",c,c,c,C.bv,c,c),L.i4(C.yS,c)),Z.dU(),Z.dU(),Z.dU(),Z.dU(),Q.cF(c,d.ga1s(),L.aU("Help",c,c,c,C.bv,c,c),L.i4(C.yR,c)),Z.dU()],o),c,!1),c,c,c,c,c,c,c),c,c)},
 a1f:function(){return this.gJE().$0()}}
 Y.a3f.prototype={
 $0:function(){var s=this.a
@@ -58482,8 +58481,8 @@ l=h.gVu()
 k=h.e
 j=h.x
 i=h.d
-if(q===C.la)return M.a7h(g,C.fG,T.mA(M.bR(g,T.fa(H.a([T.kJ(T.fa(H.a([T.kJ(new D.lM(k,new V.aw(0,0,0,2),T.fa(H.a([L.aU(j,g,g,g,s.cT(i),g,g),L.aU(C.f.i(h.z),g,g,g,r.cT(h.d),g,g)],n),C.a8,C.cj,C.a2),p,o,g)),T.kJ(new D.lM(h.r,new V.aw(0,2,0,0),T.fa(H.a([L.aU(h.y,g,g,g,s.cT(h.f),g,g),L.aU(C.f.i(h.Q),g,g,g,r.cT(h.f),g,g)],n),C.a8,C.cj,C.a2),m,l,g))],n),C.a8,C.aT,C.a2))],n),C.d1,C.aT,C.a2),g,g,g,g,g,g,600),g,g),new U.uC(new S.a35(h,b),g),C.jC,g)
-else return M.a7h(g,C.fG,T.mA(M.bR(g,T.lu(H.a([T.kJ(T.lu(H.a([T.kJ(new D.lM(k,new V.aw(0,0,2,0),T.fa(H.a([L.aU(j,g,g,g,s.cT(i),g,g),L.aU(C.f.i(h.z),g,g,g,r.cT(h.d),g,g)],n),C.a8,C.cj,C.a2),p,o,g)),T.kJ(new D.lM(h.r,new V.aw(2,0,0,0),T.fa(H.a([L.aU(h.y,g,g,g,s.cT(h.f),g,g),L.aU(C.f.i(h.Q),g,g,g,r.cT(h.f),g,g)],n),C.a8,C.cj,C.a2),m,l,g))],n),C.a8,C.aT,C.a2))],n),C.d1,C.aT,C.a2),g,g,g,g,g,g,1000),g,g),new U.uC(new S.a36(h,b),g),C.jC,g)}}
+if(q===C.la)return M.a7h(g,C.fG,T.mA(M.bR(g,T.fa(H.a([T.kJ(T.fa(H.a([T.kJ(new D.lM(k,new V.aw(0,0,0,2),T.fa(H.a([L.aU(j,g,g,g,s.cT(i),g,g),L.aU(C.f.i(h.z),g,g,g,r.cT(h.d),g,g)],n),C.a8,C.cj,C.a2),p,o,g)),T.kJ(new D.lM(h.r,new V.aw(0,2,0,0),T.fa(H.a([L.aU(h.y,g,g,g,s.cT(h.f),g,g),L.aU(C.f.i(h.Q),g,g,g,r.cT(h.f),g,g)],n),C.a8,C.cj,C.a2),m,l,g))],n),C.a8,C.aT,C.a2))],n),C.d1,C.aT,C.a2),g,g,g,g,g,g,600),g,g),new U.uC(new S.a35(h,b),g),C.jC)
+else return M.a7h(g,C.fG,T.mA(M.bR(g,T.lu(H.a([T.kJ(T.lu(H.a([T.kJ(new D.lM(k,new V.aw(0,0,2,0),T.fa(H.a([L.aU(j,g,g,g,s.cT(i),g,g),L.aU(C.f.i(h.z),g,g,g,r.cT(h.d),g,g)],n),C.a8,C.cj,C.a2),p,o,g)),T.kJ(new D.lM(h.r,new V.aw(2,0,0,0),T.fa(H.a([L.aU(h.y,g,g,g,s.cT(h.f),g,g),L.aU(C.f.i(h.Q),g,g,g,r.cT(h.f),g,g)],n),C.a8,C.cj,C.a2),m,l,g))],n),C.a8,C.aT,C.a2))],n),C.d1,C.aT,C.a2),g,g,g,g,g,g,1000),g,g),new U.uC(new S.a36(h,b),g),C.jC)}}
 S.a3_.prototype={
 $0:function(){var s,r,q,p,o,n=4278190080,m=this.a,l=this.b.a,k=J.av(l),j=H.dS(k.h(l,"labelLeft"))
 m.x=j==null?"Away":j
