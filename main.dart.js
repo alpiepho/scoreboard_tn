@@ -59697,9 +59697,7 @@ m=l.d
 l.dy=p
 l.fr=o
 l.fx=n
-l.fy=m
-l.k3="00:00:00 Start\n00:01:06 Away 1, Home 0\n00:02:06 Away 2, Home 0\n00:03:06 Away 3, Home 0\n00:04:06 Away 4, Home 0\n00:05:07 Away 4, Home 1\n00:06:07 Away 4, Home 2\n00:07:07 Away 4, Home 3\n00:08:07 Away 4, Home 4\n00:08:07 Away 4, Home 5\n00:10:08 Away 4, Home 6\n01:00:08 Away 4, Home 7\n02:00:12 actual:Away 5, Home 7   earned:Away 1, Home 0\n03:00:13 actual:Away 6, Home 7   earned:Away 2, Home 0\n04:00:13 actual:Away 7, Home 7   earned:Away 3, Home 0\n05:00:14 actual:Away 7, Home 8   earned:Away 3, Home 1\n06:00:14 actual:Away 7, Home 9   earned:Away 3, Home 2\n"
-l.k4="https://youtu.be/k70vuZ5oDo0?t=119"},
+l.fy=m},
 JB:function(a){++this.r
 if(a)++this.Q
 this.nO()},
