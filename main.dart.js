@@ -58480,7 +58480,7 @@ return P.O(null,r)}})
 return P.P($async$zX,r)},
 zU:function(){var s=0,r=P.Q(t.z),q=this
 var $async$zU=P.M(function(a,b){if(a===1)return P.N(b,r)
-while(true)switch(s){case 0:T.a69("https://github.com/alpiepho/scoreboard_tn")
+while(true)switch(s){case 0:T.a69("https://github.com/alpiepho/scoreboard_tn/blob/master/README.md")
 K.bN(q.gb_(q),!1).bE(0)
 return P.O(null,r)}})
 return P.P($async$zU,r)},
